@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACM @ GSFCU</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+            <source src="Untitled design.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <div class="content">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container" id="nav_container">
+            <a class="navbar-brand" href="index.html"><img src="logo.png"alt="GSFCU ACM Logo" style="height: 50px; width: auto;">
+                GSFCU ACM</img></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Welcome to the</h1>
+            <h1>ACM Student Chapter</h1>
+            <br>
+            <div class="acm">
+                <p>Association for Computing Machinery<p>
+            </div>
+            <h5>Discover the world of Computing and Connecting to like-minded people.</h5>
+        </div>
+    </header>
+<div class="BigContainer">
+    <div class="MasterContainer">
+    <!-- About Section -->
+    <section id="about">
+        <div class="container1">
+            <h2>About ACM</h2>
+            <p>The Association for Computing Machinery (ACM) is the world's largest educational and scientific computing society, delivering resources that advance computing as a science and a profession. Our student chapter is dedicated to fostering a vibrant community of computer science enthusiasts. GSFC University ACM Student Chapter was established in May, 2024 under the aegis of Department of Computer Science and Engineering, GSFC University. The chapter aims at serving as a dynamic hub of activities for the computing fraternity of the University, where enthusiasts meet, interact and learn from each other. The chapter aims to organize various events which includes hackathons, technical workshops, talks by renowned speakers, and coding competitions.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container1">
+            <h2>About GSFCU</h2>
+            <p>GSFC University is recognized under the Gujarat Private University (Second Amendment) Act, 2014 and is established by the GSFC Education Society - an initiative of Gujarat State Fertilizers and Chemicals Ltd, Over six decades old industrial giant, to continue the tradition of serving the community in multiple ways. GSFC University follows 'बुद्धि ज्ञानेन शुद्धधयती' principle as fundamental core of the University. The vision behind establishing this distinct University is societal development through relevant and cutting edge knowledge in frontier areas of professional growth.</p>
+        </div>
+    </section>
+
+    <div class="twin">
+        <section id="bhai">
+            <div class="vision">
+                <h2>Our Vision</h2>
+                <p>
+                    To create a collaborative environment that fosters innovation and excellence in computing. We envision a future where technology drives societal change, empowering individuals and communities alike.
+                </p>
+            </div>
+        </section>
+        <br>
+        <section id="bhai">
+            <div class="mission">
+                <h2>Our Mission</h2>
+                <p>
+                    To inspire and empower the next generation of computer scientists and technologists. Our mission is to bridge the gap between academia and industry, fostering leaders who will innovate responsibly and inclusively.
+                </p>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+    <!-- Events Section -->
+    <div class="BigContainer1">
+        <section class="events-section">
+            <h2>Upcoming Events</h2>
+            <br>
+            <div class="events-container" id="events-container">
+                <div class="event-card" onclick="toggleContent(this)">
+                    <h3>Inauguration</h3>
+                    <p><strong>Date:</strong> 1st August 2024</p>
+                    <img src="inaugral.jpg" height="300px" width="275px" class="event-img">
+                    <p class="event-text hidden">The upcoming event promises to expand your horizons in the transformative fields of Artificial Intelligence and Data Science. Join us for insightful discussions and thought-provoking presentations from two distinguished speakers, each bringing a wealth of knowledge and unique perspective on pressing topics in technology</p>
+                </div>
+                <div class="event-card" onclick="toggleContent(this)">
+                    <h3>Code Wars</h3>
+                    <p><strong>Date:</strong> 30th September 2024</p>
+                    <img src="codeWars.jpg" height="300px" width="275px" class="event-img">
+                    <p class="event-text hidden">Code Wars is a competitive programming event where students can showcase their coding skills, solve challenges, and earn recognition. CodeWars, hosted by ACM Student Chapter at GSFC University, is a team-based competitive programming event. Only teams with 2 or 3 members are eligible to participate in the event</p>
+                </div>
+                <div class="event-card" onclick="toggleContent(this)">
+                    <h3>Expert Talk</h3>
+                    <p><strong>Date:</strong> 4th October 2024</p>
+                    <img src="expertTalk.png" height="300px" width="275px" class="event-img">
+                    <p class="event-text hidden">Vladan Devedzic Professor of Computer Science, University of Belgrade, Serbia will be delivering an online talk on Artificial Intelligence: I'll see you on the dark side of the Moon.</p>
+                </div>
+                <div class="event-card" onclick="toggleContent(this)">
+                    <h3>Recruit-a-thon</h3>
+                    <p><strong>Date:</strong> 3rd February - 7th February 2025</p>
+                    <img src="recruithon.jpg" height="300px" width="275px" class="event-img">
+                    <p class="event-text hidden">The primary goal of these recruitment drives is to build a diverse and talented team that can contribute to various aspects of ACM, including content creation, event management,marketing, social media, technical development, and design</p>
+                </div>
+                <div class="event-card" onclick="toggleContent(this)">
+                    <h3>Web Dev with AI</h3>
+                    <p><strong>Date:</strong> 18th February 2025</p>
+                    <img src="webDev.jpg" height="300px" width="275px" class="event-img">
+                    <p class="event-text hidden">It is a workshop upon building websites using availale AI Tools within no time. The main goal is to make students aware about the trending tools in this domain. The speaker is Mr Vaibhav Kumawat,he is the Web Head in ACM Student Chapter.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+<br>
+<br>
+    <!-- Team Section -->
+     <div class="BigContainer1">
+    <section class="master">
+        <button class="arrow left-arrow" onclick="prevSlide()">&#9665;</button>
+        <h2 style="text-align: center; align-items: center;">Meet Our Team</h2>
+        <div class="head">
+            <div class="small">
+                <div class="display-area">
+                    <h6>Mousam Patel</h6>
+                    <p>Faculty Sponsor</p>
+                </div>
+                <img src="FacultySponsor.png" height="250px" width="250px" alt="Faculty Sponsor">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Nandish Mittal</h6>
+                    <p>ACM Chair</p>
+                </div>
+                <img src="Chair.png" alt="Chair" height="250px" width="250px" alt="Faculty Sponsor">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Tejas Mistry</h6>
+                    <p>Vice Chair</p>
+                </div>
+                <img src="ViceChair.png" height="250px" width="250px" alt="Vice Chair">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Kanika Sharma</h6>
+                    <p>Secretary</p>
+                </div>
+                <img src="Secretary.png" height="250px" width="250px" alt="Secretaryr">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Vaibhav Kumawat</h6>
+                    <p>Web Head & Tech Lead</p>
+                </div>
+                <img src="WebHead.png" height="250px" width="250px" alt="Web Head">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Chirag Parmar</h6>
+                    <p>Treasurer</p>
+                </div>
+                <img src="Treasurer.png" height="250px" width="250px" alt="Treasurer">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Shreya Dholia</h6>
+                    <p>Membership Chair</p>
+                </div>
+                <img src="MembershipChair.png" height="250px" width="250px" alt="Membership Chair">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Archit Pandey</h6>
+                    <p>Marketing & Sponsorship Head</p>
+                </div>
+                <img src="MarketingHead.png" height="250px" width="250px" alt="Marketing Head">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Sameer Gaur</h6>
+                    <p>Content Head</p>
+                </div>
+                <img src="ContentHead.png" height="250px" width="250px" alt="Content Head">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Vidur Shah</h6>
+                    <p>Design Head</p>
+                </div>
+                <img src="DesignHead.png" height="250px" width="250px" alt="Design Head">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Divy Puranik</h6>
+                    <p>Logistics Head</p>
+                </div>
+                <img src="Logistics Head.png" height="250px" width="250px" alt="Logistics Head">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Heer Modi</h6>
+                    <p>Event Head</p>
+                </div>
+                <img src="EventHead.png" height="250px" width="250px" alt="Event Head">
+            </div>
+            <div class="small">
+                <div class="display-area">
+                    <h6>Tirth Sharma</h6>
+                    <p>Social Media Head</p>
+                </div>
+                <img src="SocialMediaHead.png" height="250px" width="250px" alt="Social Media Head">
+            </div>
+            <br>
+        </div>
+        <button class="arrow right-arrow" onclick="nextSlide()">&#9655;</button>
+    </section>
+    </div>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-center">
+        <div class="BigContainer2"> 
+            <div class="image">
+                <img src="logo.png" alt="Logo">
+            </div>
+        <div class="container2">
+            <h2>Contact Us</h2>
+            <br>
+            <form id="contactForm">
+                <div class="mb-3">
+                    Name :  <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <br>
+                <div class="mb-3">
+                    Email : <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <br>
+                <div class="mb-3">
+                    Contact Number :  <input type="text" class="form-control" placeholder="Your Contact number" required>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary" style="align-items: center;" !important>Send Message</button>
+                <br>
+                <div class="mb-3"></div>
+            </form>
+        </div>
+    </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer"style="justify-content:space-evenly;">
+    <div style="display: flex; flex-direction: row; text-align: center;">    
+        <div class="foot">
+        <img src="logo.png" alt="GSFCU ACM Logo" height="130px" width="auto">
+        </div>
+        <div class="foot1">
+        <br>
+        <h5>Association for 
+            <br>
+            Computing and Machinery 
+            <br></h5>
+            <div class="foot1.1">
+            <p>
+            A GSFCU Student Chapter
+            </p>
+            </div>
+        </div>
+    </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" class="twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" class="linkedin">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    <div style="display: flex; flex-direction: row; align-self: self-end;">
+        <div class="me">
+            <img src="logo.png" width="auto" height="100px" alt="GSFCU ACM Logo">
+            </div>
+            <div class="me1">
+            <h6>Developed by
+                <br>
+                Shreya Vadukar
+                <br></h6>
+                <div class="me1.1">
+                <p>
+                Web Team Volunteer,<br>
+                ACM Student Chapter
+                <br>
+                </p>
+                </div>
+            </div>
+       </div>
+    </div>
+    </footer>
+</div>
+<div>
+
+</div>
+<div>
+    
+</div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</body>
+</html>
