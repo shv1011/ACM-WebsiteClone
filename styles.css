@@ -152,7 +152,7 @@ body {
     align-content: center;
     padding: auto;
     display: flex;
-    flex-direction: row !important; 
+    flex-direction: row !important;
 }
 
 .foot1{
@@ -161,7 +161,7 @@ body {
     display: flex;
     flex-direction: row !important; 
     height: 140px;
-    width : 450px;
+    width : 350px;
 }
 .foot1{
     text-align: left;
@@ -312,6 +312,7 @@ flex-direction: row !important;
     border-radius: 15px;
     overflow: visible;
     position: relative;
+    align-self: center;
 }
 
 .BigContainer2{
@@ -356,6 +357,8 @@ flex-direction: row !important;
     cursor: pointer;
     display: none;
     text-align: center;
+    align-content: center;
+    align-self: center;
 }
 
 .small img {
@@ -429,19 +432,27 @@ flex-direction: row !important;
     opacity: 1; /* Shows on hover */
 }
 
-
-social-icons {
+.social-icons {
     display: flex;
-    gap: 20px;
     justify-content: center;
-    align-items: center;
+    gap: 15px; /* Adjust spacing */
     margin-top: 20px;
+    align-items: left;
+    align-self: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .social-icons a {
-    font-size: 30px;
-    color: black; /* Default color */
-    transition: transform 0.3s, color 0.3s;
+    color: #fff; 
+    font-size: 24px; 
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .social-icons a:hover {
@@ -452,7 +463,18 @@ social-icons {
     display: none;
 }
 
-/* Specific hover colors */
 .social-icons a.instagram:hover { color: #E4405F; }
 .social-icons a.twitter:hover { color: #1DA1F2; }
 .social-icons a.linkedin:hover { color: #0077B5; }
+
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

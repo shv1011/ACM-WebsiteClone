@@ -51,15 +51,16 @@ function hideName() {
     }
     showSlide(currentIndex);
 
-    function toggleContent(card) {
+    function toggleContent(card, showText) {
         let img = card.querySelector(".event-img");
         let text = card.querySelector(".event-text");
-        
-        if (img.style.display === "none") {
-            img.style.display = "block";
-            text.style.display = "none";
-        } else {
+    
+        if (showText) {
             img.style.display = "none";
             text.style.display = "block";
+        } else {
+            img.style.display = "block";
+            text.style.display = "none";
         }
     }
+    
