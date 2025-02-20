@@ -19,10 +19,10 @@ Bootstrap – For responsive design and UI components.
 
 <h2>Features</h2>
 
-✔ Fully responsive design
-✔ Smooth animations and interactive elements
-✔ Optimized for better performance
-✔ No dependency on React.js or heavy libraries
+✔ Fully responsive design<br>
+✔ Smooth animations and interactive elements<br>
+✔ Optimized for better performance<br>
+✔ No dependency on React.js or heavy libraries<br>
 
 
 Owner
