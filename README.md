@@ -2,11 +2,11 @@
 
 This is a cloned version of the GSFCU ACM Website built using HTML, CSS, JavaScript, and Bootstrap, replacing the original React.js implementation.
 
-Project Overview
+<h2>Project Overview</h2>
 
 This project replicates the official GSFCU ACM Chapter website while improving accessibility and performance using core web technologies. The goal is to create a lightweight and easy-to-maintain version without using a frontend framework like React.
 
-Tech Stack
+<h2>Tech Stack</h2>
 
 HTML – For structuring the web pages.
 
@@ -17,7 +17,7 @@ JavaScript – For interactivity and dynamic behavior.
 Bootstrap – For responsive design and UI components.
 
 
-Features
+<h2>Features</h2>
 
 ✔ Fully responsive design
 ✔ Smooth animations and interactive elements
